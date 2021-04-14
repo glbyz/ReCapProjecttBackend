@@ -1,0 +1,9 @@
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\Core\bin\Debug\netstandard2.0\Core.deps.json
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\Core\bin\Debug\netstandard2.0\Core.dll
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\Core\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\Core\obj\Debug\netstandard2.0\Core.dll
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\Core\obj\Debug\netstandard2.0\Core.pdb
