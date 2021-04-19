@@ -13,5 +13,6 @@ namespace Business.Constants
         public static string Listed = "Listeleme işlemi başarılı";
         public static string MaintenanceTime = "Sistem bakımda";
         public static string OperationFailed = "Araç Mevcut Değil. ";
+        public static string ImageLimitExceded="Resim Ekleme Limiti Aşıldığı İçin Yeni Resim Eklenemiyor";
     }
 }

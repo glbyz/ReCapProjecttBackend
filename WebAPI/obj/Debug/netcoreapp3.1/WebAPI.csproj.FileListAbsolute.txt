@@ -71,3 +71,6 @@ C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\Auto
 C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
