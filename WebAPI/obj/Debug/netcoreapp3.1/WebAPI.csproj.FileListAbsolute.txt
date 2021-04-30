@@ -74,3 +74,4 @@ C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\Flue
 C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gulbeyaz\source\repos\ReCapProjectt\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

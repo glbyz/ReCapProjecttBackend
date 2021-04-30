@@ -1,8 +1,8 @@
 ﻿using Business.Abstract;
 using Business.Constants;
-using Core.Utilities;
 using Core.Utilities.Business;
 using Core.Utilities.Helper;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Http;
@@ -21,7 +21,7 @@ namespace Business.Concrete
             _imageDal = imageDal;
         }
 
-        public IResult Add(IFormFile formFile ,Image image)
+        public IResult Add(IFormFile formFile, Image image)
         {
             IResult result = BusinessRules.Run(CheckIfImageLimitExceded(image.CarId - 1));
             if (result != null)
@@ -59,10 +59,10 @@ namespace Business.Concrete
 
         public IDataResult<List<Image>> GetByCarId(int id)
         {
-            return new SuccessDataResult<List<Image>>(_imageDal.GetAll(i=>i.CarId==id));
+            return new SuccessDataResult<List<Image>>(_imageDal.GetAll(i => i.CarId == id));
         }
 
-        public IResult Update(IFormFile formFile , Image image)
+        public IResult Update(IFormFile formFile, Image image)
         {
             BusinessRules.Run(CheckIfImageLimitExceded(image.ImageId));
             if (CheckIfImageLimitExceded(image.ImageId).Success)
@@ -77,11 +77,11 @@ namespace Business.Concrete
         private IResult CheckIfImageLimitExceded(int imageId)
         {
             var result = _imageDal.GetAll();
-            if (result.Count==5)
+            if (result.Count == 5)
             {
                 return new ErrorResult(Messages.ImageLimitExceded);
             }
             return new SuccessResult();
-        }   
+        }
     }
 }

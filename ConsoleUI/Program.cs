@@ -29,15 +29,15 @@ namespace ConsoleUI
 
         private static void UserAdded()
         {
-            UserManager userManager = new UserManager(new EfUserDal());
+            //UserManager userManager = new UserManager(new EfUserDal());
 
-            userManager.Add(new User
-            {
-                FirstName = "Bugrahan",
-                LastName = "Çeker",
-                Email = "bugrahanceker17@hotmail.com",
-                Password = "baç17baç"
-            });
+            //userManager.Add(new UserManager)
+            //{
+            //    FirstName = "Bugrahan",
+            //    LastName = "Çeker",
+            //    Email = "bugrahanceker17@hotmail.com",
+            //    Password = "baç17baç"
+            //});
 
             Console.WriteLine(Messages.Added);
             //var result = userManager.Add(new User());
