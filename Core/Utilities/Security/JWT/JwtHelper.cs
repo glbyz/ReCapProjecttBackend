@@ -15,8 +15,8 @@ namespace Core.Utilities.Security.JWT
     public class JwtHelper : ITokenHelper
     {
         public IConfiguration Configuration { get; }
-        TokenOptions _tokenOptions;
-        DateTime _accessTokenExpiration;
+        private TokenOptions _tokenOptions;
+        private DateTime _accessTokenExpiration;
 
         public JwtHelper(IConfiguration configuration)
         {

@@ -3,8 +3,6 @@ using System;
 
 namespace Core.Utilities.Interceptors
 {
-    public abstract partial class MethodInterceptionBaseAttribute
-    {
         public abstract class MethodInterception : MethodInterceptionBaseAttribute
         {
             protected virtual void OnBefore(IInvocation invocation) { }
@@ -35,5 +33,4 @@ namespace Core.Utilities.Interceptors
                 OnAfter(invocation);
             }
         }
-    }
 }

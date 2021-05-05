@@ -11,9 +11,9 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController : ControllerBase
+    public class AuthController : Controller
     {
-         IAuthService _authService;
+         private IAuthService _authService;
 
         public AuthController(IAuthService authService)
         {

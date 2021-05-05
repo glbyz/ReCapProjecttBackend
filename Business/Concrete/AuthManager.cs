@@ -13,8 +13,8 @@ namespace Business.Concrete
 {
     public class AuthManager : IAuthService
     {
-        IUserService _userService;
-        ITokenHelper _tokenHelper;
+        private IUserService _userService;
+        private ITokenHelper _tokenHelper;
 
         public AuthManager(IUserService userService, ITokenHelper tokenHelper)
         {
@@ -38,9 +38,9 @@ namespace Business.Concrete
             }
             if (!HashingHelper.VerifyPasswordHash(userForLogin.Password, UserToCheck.PasswordHash,UserToCheck.PasswordSalt))
             {
-                return new ErrorDataResult<User>(UserToCheck, Messages.PasswordError);
+                return new ErrorDataResult<User>( Messages.PasswordError);
             }
-            return new SuccessDataResult<User>(Messages.SuccessfulLogin);
+            return new SuccessDataResult<User>(UserToCheck, Messages.SuccessfulLogin);
         }
 
         public IDataResult<User> Register(UserForRegisterDto userForRegister, string password)

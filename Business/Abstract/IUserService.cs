@@ -8,7 +8,6 @@ namespace Business.Abstract
 {
     public interface IUserService
     {
-        
 
         IResult Add(User user);
         IResult Delete(User user);
